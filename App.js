@@ -10,7 +10,6 @@ import {
 import Dialog from "react-native-dialog";
 import Search from "./Search";
 import { useEffect, useState } from "react";
-import { ImageZoom } from "@likashefqet/react-native-image-zoom";
 
 export default function App() {
   const [visible, setVisible] = useState(false);
@@ -69,7 +68,7 @@ export default function App() {
               justifyContent: "center",
             }}
           >
-            <Text>Press Here</Text>
+            <Text>Column</Text>
           </TouchableOpacity>
         </View>
         <View style={{ flex: 1 }}>
